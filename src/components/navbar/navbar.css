@@ -1,0 +1,10 @@
+.items:hover {
+    cursor: pointer;
+
+}
+
+.btn {
+    left: -1rem;
+    width: 8rem;
+    height: 3rem;
+}

@@ -1,0 +1,44 @@
+.card {
+
+    margin-left: 1rem;
+    padding-left: 0rem;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+
+    display: flex;
+
+
+
+}
+
+.card>:nth-child(1) {
+    transform: scale(0.8);
+}
+
+.card-body>:nth-child(1) {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card-body>:nth-child(2) {
+    color: grey;
+}
+
+
+
+.btn {
+    width: 7rem;
+    height: 4rem;
+}
+
+.btni {
+    width: 7rem;
+    height: 3rem;
+}
+
+@media screen and (max-width:375px) {
+    .card {
+        flex-direction: column;
+    }
+}

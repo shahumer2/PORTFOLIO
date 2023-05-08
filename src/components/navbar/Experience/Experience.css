@@ -1,0 +1,63 @@
+.Experience {
+    padding-top: 30rem;
+    margin-top: 8rem;
+    margin-left: 4rem;
+    margin-bottom: 8rem;
+    padding-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 90vh;
+    margin-bottom: 8rem;
+}
+
+.achievements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+
+
+}
+
+.circle {
+    height: 9rem;
+    width: 3rem;
+    border-radius: 100%;
+    background: white;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    gap: 1rem;
+}
+
+.circle::before {
+
+    border-radius: 100%;
+    content: "";
+    background-image: linear-gradient(to bottom, #87e6fb 1%, orange 100%);
+    top: -8px;
+    left: -8px;
+    bottom: -8px;
+    right: -8px;
+    position: absolute;
+    z-index: -1;
+    box-shadow: var();
+}
+
+.achievements span:nth-child(3) {
+    color: #FCA61F;
+
+}
+
+@media screen and (max-width:375px) {
+
+    .Experience {
+        margin-top: 35rem;
+        flex-direction: column;
+        padding-top: 90rem;
+    }
+}

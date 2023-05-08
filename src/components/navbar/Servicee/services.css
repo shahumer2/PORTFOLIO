@@ -1,0 +1,65 @@
+.services {
+    display: flex;
+    height: 90vh;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+    margin-left: 3rem;
+    padding: 0%, 3rem, 0px, 3rem;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 0%, 3rem, 0px, 3rem;
+}
+
+.awesome>:nth-child(1) {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(2) {
+    color: orange;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3) {
+    color: grey;
+    font-size: 14px;
+
+}
+
+.s-button {
+    width: 8rem;
+    margin-top: 1rem;
+}
+
+
+
+.cards>* {
+    position: relative;
+}
+
+@media screen and (max-width:375px) {
+    .services {
+        padding-top: 20rem;
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: column;
+    }
+
+    .cards {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .cards>* {
+        position: static;
+    }
+}

@@ -1,0 +1,45 @@
+.contact-form {
+    margin-top: 20rem;
+    display: flex;
+
+    height: 90vh;
+
+}
+
+.c-left {
+    padding-left: 3rem;
+}
+
+.c-right {
+    padding-left: 20rem;
+
+
+    margin: 1rem, 2rem, 2rem 1rem;
+}
+
+.form-control {
+    border: 2px solid orange;
+    border-radius: 8px;
+}
+
+.btn {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width:375px) {
+    .contact-form {
+        flex-direction: column;
+    }
+
+    .c-left {
+        margin-left: -2rem;
+    }
+
+
+
+    .c-right {
+        margin-left: -19rem !important;
+        flex-direction: column;
+    }
+
+}
